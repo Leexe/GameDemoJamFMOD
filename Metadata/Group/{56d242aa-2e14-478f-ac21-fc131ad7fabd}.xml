@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{56d242aa-2e14-478f-ac21-fc131ad7fabd}">
+		<property name="name">
+			<value>AMB</value>
+		</property>
+		<relationship name="masters">
+			<destination>{3c7eea4b-20bd-4c64-bc4f-9666c5af33c9}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{5551db1f-0bd2-40ce-948f-3968990bba18}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{07a1d74e-321b-473d-9dbd-13b47ce8b8b4}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{91f69558-8935-49a1-af6c-5e3665dfa3fe}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{5551db1f-0bd2-40ce-948f-3968990bba18}">
+		<relationship name="effects">
+			<destination>{6daef87f-8b54-4e2b-8543-03a1c4024758}</destination>
+			<destination>{98f5196d-4a5e-41b2-836c-5aa9917a3421}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{07a1d74e-321b-473d-9dbd-13b47ce8b8b4}" />
+	<object class="MixerBusFader" id="{6daef87f-8b54-4e2b-8543-03a1c4024758}" />
+	<object class="MultibandEqEffect" id="{98f5196d-4a5e-41b2-836c-5aa9917a3421}" />
+</objects>
