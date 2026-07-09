@@ -5,7 +5,7 @@
 			<value>Menu UI</value>
 		</property>
 		<relationship name="folder">
-			<destination>{c2243025-167b-4432-8207-015c998c57e6}</destination>
+			<destination>{26902d6b-8ac4-48f6-af42-addeaf2bc788}</destination>
 		</relationship>
 	</object>
 </objects>
